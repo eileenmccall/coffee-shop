@@ -11,9 +11,12 @@ import PropTypes from "prop-types";
 import './bootstrap.min.css';
 import "./layout.css";
 
+import Navbar from './navBar';
+
 const Layout = ({ children }) => (
   <>
     <div className="container">
+      <Navbar/>
       {children}
     </div>
   </>
