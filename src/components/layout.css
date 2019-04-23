@@ -12,7 +12,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Courier New', Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
@@ -27,7 +32,8 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2rem;
 }
 
-.default-background, .about-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -55,4 +61,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .footer {
   background: var(--mainBrown);
+}
+
+.menu {
+  background: var(--mainGrey);
 }
