@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2rem;
 }
 
-.default-background {
+.default-background, .about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -36,6 +36,10 @@ h1,h2,h3,h4,h5,h6 {
   background-position: center;
   background-size: cover;
   opacity: 1 !important;
+}
+
+.about-background {
+  min-height: 60vh;
 }
 
 .btn-yellow {
